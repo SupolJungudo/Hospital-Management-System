@@ -1,9 +1,8 @@
-<!-- File: database.php -->
 <?php
-$host = 'sql301.infinityfree.com';
-$dbname = 'if0_40567311_clinic';
-$username = 'if0_40567311'; 
-$password = 'jsixxNNg0K6iMY'; 
+$host = 'localhost';
+$dbname = 'hms';
+$username = 'root'; 
+$password = ''; 
 
 try {
     $pdo = new PDO("mysql:host=$host;dbname=$dbname;charset=utf8mb4", $username, $password);
